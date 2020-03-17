@@ -26,3 +26,4 @@ class Patient
     self.appointments.map {|appointment| appointment.doctor}
   end
 end
+binding.pry
