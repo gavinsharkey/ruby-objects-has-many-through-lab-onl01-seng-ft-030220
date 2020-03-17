@@ -1,4 +1,6 @@
 require "pry"
+require_relative "doctor"
+require_relative "appointment"
 class Patient
   attr_accessor :name
 
